@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9d08a2d5fd1a2d44bedcef35c05b9f0, type: 3}
+  m_Name: Ad_IdsTest
+  m_EditorClassIdentifier: 
+  chooseAdsNetwork: 0
+  admobAppId: ca-app-pub-3940256099942544~3347511713
+  admobAppOpenId: ca-app-pub-3940256099942544/3419835294
+  AdmobOpenAppAD: 1
+  admobBannerId: ca-app-pub-3940256099942544/6300978111
+  admobLargeBannerId: ca-app-pub-3940256099942544/6300978111
+  interstitialMainId: ca-app-pub-3940256099942544/1033173712
+  interstitialGameId: ca-app-pub-3940256099942544/1033173712
+  interstitialRewardedId: ca-app-pub-3940256099942544/1033173712
+  admobRewardedVideoId: ca-app-pub-3940256099942544/5224354917
+  admobAppOpenId_Medium: 
+  admobAppOpenId_High: 
+  smallBannerPosition1: 0
+  largeBannerPosition: 4
+  isSecondSmallBannerRequired: 0
+  smallBannerPosition2: 0
