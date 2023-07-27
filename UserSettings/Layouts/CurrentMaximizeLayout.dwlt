@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 28907
+  controlID: 30675
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -87,7 +87,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 28908
+  controlID: 30676
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 28909
+  controlID: 30677
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -228,7 +228,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: fe5e0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 94a5f4ff46a8f4ff0aaef4ffc6ccf4fffe14f5ff0634f5ff1a5bf5ff3c7af5ff527bf5ff547bf5ff5a86f5ffb2b5f5ff0ed7f5ff14e2f5ff2011f6ff7a33f6ff7c33f6ff823ef6ff0e61f6ff2462f6ff2662f6ff2e6df6ff2e73f6ffa290f6ffb891f6ffba91f6ffc09cf6ff7acbf6ffc0f2f6ff5af3f6ffba21f7ffba4bf7fff27af7ffdea1f7ff94cef7ff70d5f7ffc4fcf7ffc82bf8ff9c32f8fff659f8ffcc8bf8ff60b4f8ff9ae3f8ff840af9ffda0af9ff9a35f9ffda63faff0a8ffaff7cbefaffacf8faff4a5cfbff2e89fbff908cfbff328efbffc695fbffca95fbfffea9fbff2e00fcffd819fcff082efcffda7dfcffe890fcff7491fcff9e94fcff9a97fcff1e9cfcff369cfcff3a9cfcff6ab0fcffaaddfcff7a20fdff343efdff383efdff6a52fdff4888fdff36cffdff3acffdff6ee3fdffba18feffbe9efeff18affeff5aaffeff76c9feff7ac9feff7ec9feffaeddfeff9a1dffff0a5cffff0e5cffff125cffff4270ffff60aaffff90c9ffff3afaffff32fbffff2860000030860000288f0000dc93000016940000309400001295000036950000d69700004e990000889a0000ea9a00005e9b0000ca9b0000209c000020ad00003e3f0400365d0400544e0900bc72090014800900b4900900a4a70b00f6a70b005e7d0d00fa930d00eaab0d005c9a0f0064a90f009ab50f005cc70f00eabb1500f2c4150072c6150080e615004e711d0022941d00a83f2000745920007c622000989921006cbc210088f322005c162300ac622300808523009cbc2400c02b2500b08526007c9f260084a82600f8ea2700c20d280098a92900e2c0290086d6290056692b005e722b00827c2b00a2852b00a8892b004c9f2b0066d82b006ee12b0070e52b0092eb2b00b2f42b00b8f82b0084fa2b007c452d00388c2e0040952e0042992e00649f2e0084a82e008aac2e0056ae2e00aa0230006c1c300082293000a6de30002a85310002ac3100c2e832005eea320024ed3200c2ef3200feef3200
+      m_ExpandedIDs: f6daf3ff30f9f3fff81ef4ff5c40f4ff94a5f4ff46a8f4ff0aaef4ffc6ccf4fffe14f5ff0634f5ff1a5bf5ff3c7af5ff527bf5ff547bf5ff5a86f5ffb2b5f5ff0ed7f5ff14e2f5ff2011f6ff7a33f6ff7c33f6ff823ef6ff0e61f6ff2462f6ff2662f6ff2e6df6ff2e73f6ffa290f6ffb891f6ffba91f6ffc09cf6ff7acbf6ffc0f2f6ff5af3f6ffba21f7ffba4bf7fff27af7ffdea1f7ff94cef7ff70d5f7ffc4fcf7ffc82bf8ff9c32f8fff659f8ffcc8bf8ff60b4f8ff9ae3f8ff840af9ffda0af9ff9a35f9ffda63faff0a8ffaff7cbefaffacf8faff4a5cfbff2e89fbff908cfbff328efbffc695fbffca95fbfffea9fbff2e00fcffd819fcff082efcffda7dfcffe890fcff7491fcff9e94fcff9a97fcff1e9cfcff369cfcff3a9cfcff6ab0fcffaaddfcff7a20fdff343efdff383efdff6a52fdff4888fdff36cffdff3acffdff6ee3fdffba18feffbe9efeff18affeff5aaffeff76c9feff7ac9feff7ec9feffaeddfeff9a1dffff0a5cffff0e5cffff125cffff4270ffff60aaffff90c9ffff3afaffff32fbffff2860000030860000288f0000dc93000016940000309400001295000036950000d69700004e990000889a0000ea9a00005e9b0000ca9b0000209c000020ad00003e3f0400365d0400544e0900bc72090014800900b4900900a4a70b00f6a70b005e7d0d00fa930d00eaab0d005c9a0f0064a90f009ab50f005cc70f00eabb1500f2c4150072c6150080e615004e711d0022941d00a83f2000745920007c622000989921006cbc210088f322005c162300ac622300808523009cbc2400c02b2500b08526007c9f260084a82600f8ea2700c20d280098a92900e2c0290086d6290056692b005e722b00827c2b00a2852b00a8892b004c9f2b0066d82b006ee12b0070e52b0092eb2b00b2f42b00b8f82b0084fa2b007c452d00388c2e0040952e0042992e00649f2e0084a82e008aac2e0056ae2e00aa0230006c1c300082293000a6de30002a85310002ac3100c2e832005eea320024ed3200c2ef3200feef320082063400de2a3400ba2e3400ee3d34000c3e34005c453400fc1c3600343a3600ec3a3600f8f83600
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -538,9 +538,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 210.40698, y: 148.44627, z: -34.093464}
+    m_Target: {x: 280.4177, y: 134.36644, z: 4.564492}
     speed: 2
-    m_Value: {x: 210.40698, y: 148.44627, z: -34.093464}
+    m_Value: {x: 280.4177, y: 134.36644, z: 4.564492}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -587,13 +587,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.093851976, y: -0.55616975, z: 0.06339588, w: 0.82332754}
+    m_Target: {x: -0.054296482, y: -0.6482757, z: 0.04642715, w: -0.7580631}
     speed: 2
-    m_Value: {x: 0.09385102, y: -0.5561641, z: 0.06339524, w: 0.8233192}
+    m_Value: {x: -0.054295816, y: -0.6482677, z: 0.04642658, w: -0.7580538}
   m_Size:
-    m_Target: 1.0792253
+    m_Target: 8.095135
     speed: 2
-    m_Value: 1.0792253
+    m_Value: 8.095135
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -628,7 +628,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -637,14 +637,14 @@ MonoBehaviour:
     y: 352
     width: 907.3333
     height: 227.33331
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 11}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 10}
   m_Panes:
   - {fileID: 10}
   - {fileID: 11}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -757,7 +757,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: fe5e0000
     m_LastClickedInstanceID: 24318
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
