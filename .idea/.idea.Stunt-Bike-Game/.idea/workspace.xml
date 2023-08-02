@@ -4,6 +4,8 @@
     <list default="true" id="f3d38fcc-1e64-400c-8f23-d20778533e74" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Stunt-Bike-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stunt-Bike-Game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ScenesGame/Scenes/Gameplay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScenesGame/Scenes/Gameplay.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +61,7 @@
       <workItem from="1690281485157" duration="597000" />
       <workItem from="1690442089419" duration="2458000" />
       <workItem from="1690456240379" duration="607000" />
-      <workItem from="1690963361531" duration="2844000" />
+      <workItem from="1690963361531" duration="4068000" />
     </task>
     <servers />
   </component>
