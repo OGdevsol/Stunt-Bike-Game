@@ -172,7 +172,7 @@ public class GameController : MonoBehaviour
 
     public void Next()
     {
-        if (ApplicationController.SelectedLevel < 5)
+        if (ApplicationController.SelectedLevel < 9)
         {
             ApplicationController.SelectedLevel += 1;
             ApplicationController.LastSelectedLevel = ApplicationController.SelectedLevel;
