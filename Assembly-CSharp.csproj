@@ -160,6 +160,7 @@
      <Folder Include="Assets\ScenesGame\slicing\4" />
      <Folder Include="Assets\BIKE UI PNG\BIKE SELECT" />
      <Folder Include="Assets\ScenesGame\Prefabs" />
+     <Folder Include="Assets\Bikes_Environment\Environment_10_Leves\Texture\Materials" />
      <Folder Include="Assets\Code\Scripts\Ad&apos;s Script" />
      <Folder Include="Assets\NewEnvironment" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
