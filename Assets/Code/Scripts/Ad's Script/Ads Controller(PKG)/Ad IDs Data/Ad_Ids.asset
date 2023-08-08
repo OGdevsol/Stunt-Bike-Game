@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Ad_Ids
   m_EditorClassIdentifier: 
   chooseAdsNetwork: 0
-  admobAppId: ca-app-pub-1897637333634910~8638189023
+  admobAppId: ca-app-pub-1897637333634910/6632080978
   admobAppOpenId: ca-app-pub-1897637333634910/3573548692
   AdmobOpenAppAD: 1
-  admobBannerId: ca-app-pub-1897637333634910/9261823798
+  admobBannerId: ca-app-pub-1897637333634910/6248937598
   admobLargeBannerId: 
   interstitialMainId: ca-app-pub-1897637333634910/6635660454
   interstitialGameId: ca-app-pub-1897637333634910/6635660454

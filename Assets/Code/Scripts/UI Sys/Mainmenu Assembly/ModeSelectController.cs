@@ -65,6 +65,7 @@ public class ModeSelectController : MonoBehaviour
     {
         _mainMenuController.AddPanelToStackAndLoad(2);
         _levelMenuController.ExecuteLevel();
+        AdsController.Instance._showInterstitialGame();
         
     }
     

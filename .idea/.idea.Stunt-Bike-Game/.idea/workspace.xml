@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3d38fcc-1e64-400c-8f23-d20778533e74" name="Changes" comment="" />
+    <list default="true" id="f3d38fcc-1e64-400c-8f23-d20778533e74" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Stunt-Bike-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stunt-Bike-Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Ad's Script/Ads Controller(PKG)/Ad IDs Data/Ad_Ids.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Ad's Script/Ads Controller(PKG)/Ad IDs Data/Ad_Ids.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/UI Sys/Mainmenu Assembly/MainMenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/UI Sys/Mainmenu Assembly/MainMenuController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/UI Sys/Mainmenu Assembly/ModeSelectController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/UI Sys/Mainmenu Assembly/ModeSelectController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScenesGame/Scenes/Gameplay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScenesGame/Scenes/Gameplay.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScenesGame/Scenes/Mainmenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScenesGame/Scenes/Mainmenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScenesGame/Scenes/Splash.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScenesGame/Scenes/Splash.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +71,9 @@
       <workItem from="1690456240379" duration="607000" />
       <workItem from="1690963361531" duration="4763000" />
       <workItem from="1691052985593" duration="1589000" />
+      <workItem from="1691395547126" duration="693000" />
+      <workItem from="1691404195126" duration="816000" />
+      <workItem from="1691430077773" duration="1337000" />
     </task>
     <servers />
   </component>

@@ -73,7 +73,7 @@ public class MainMenuController : MonoBehaviour
         {
             _menuController.PlayAnimation();
         }
-        //DisplayAd();
+        DisplayAd();
 
     }
     
@@ -94,7 +94,7 @@ public class MainMenuController : MonoBehaviour
                 _menuController.PlayAnimation();
             }
 
-            //DisplayAd();
+            DisplayAd();
     }
 
 
