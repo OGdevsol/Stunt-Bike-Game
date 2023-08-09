@@ -38202,23 +38202,23 @@ MonoBehaviour:
     selectedImage: {fileID: 514209725}
     inventoryItemlockButtons: {fileID: 398900538}
     price: 0
-    Speed: 70
-    Handling: 300
+    Speed: 110
+    Handling: 200
     Grip: 100
   - BgImage: {fileID: 1315027974}
     selectedImage: {fileID: 932676252}
     inventoryItemlockButtons: {fileID: 1624163147}
     price: 0
-    Speed: 100
-    Handling: 350
+    Speed: 130
+    Handling: 250
     Grip: 120
   - BgImage: {fileID: 1383989568}
     selectedImage: {fileID: 744048639}
     inventoryItemlockButtons: {fileID: 556556045}
     price: 0
     Speed: 150
-    Handling: 400
-    Grip: 150
+    Handling: 270
+    Grip: 140
   Items:
   - {fileID: 21300000, guid: 57f8190465dcb934c958ce02134c942b, type: 3}
   - {fileID: -159107748, guid: 4ffe813a46e9e9b4b968ce98e7d9c708, type: 3}

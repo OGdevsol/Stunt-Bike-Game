@@ -64672,7 +64672,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: -0, y: -90, z: 0}
 --- !u!95 &1518616465028908470
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -64689,7 +64689,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1460256733101387722
 GameObject:
   m_ObjectHideFlags: 0
@@ -65213,7 +65214,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1465582281969499632
 Transform:
   m_ObjectHideFlags: 0

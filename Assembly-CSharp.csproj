@@ -259,6 +259,7 @@
      <Folder Include="Assets\ErbGameArt\Glowing orbs pack\Materials" />
      <Folder Include="Assets\Bikes_Environment\Environment_10_Leves\Texture" />
      <Folder Include="Assets\ScenesGame\slicing" />
+     <Folder Include="Assets\Prefab" />
      <Folder Include="Assets\Art\Player\Textures" />
      <Folder Include="Assets\BIKE UI PNG\PAUSED" />
      <Folder Include="Assets\Art\Bikes\Material" />
