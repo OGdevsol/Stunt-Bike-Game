@@ -178,10 +178,12 @@
      <None Include="Assets\GoogleMobileAds\GoogleMobileAds_version-7.2.0_manifest.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <Folder Include="Assets\ScenesGame\Scenes" />
+     <Folder Include="Assets\Bike_Environment_10Levels\Texture" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <Folder Include="Assets\TextMesh Pro\Resources" />
      <Folder Include="Assets\Extensions\GhostRecording\Scripts" />
      <Folder Include="Assets\Art\Bikes\Texture\BS2_Bike02" />
+     <Folder Include="Assets\Bike_Environment_10Levels\Material" />
      <Folder Include="Assets\Art\Bike Stunt Space Enviroment\Prefab" />
      <Folder Include="Assets\Extensions\Bike Controller" />
      <Folder Include="Assets\GoogleMobileAds\Resources" />
@@ -194,6 +196,7 @@
      <Folder Include="Assets\Extensions\TextMesh Pro\Shaders" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <Folder Include="Assets\Art" />
+     <Folder Include="Assets\Bike_Environment_10Levels" />
      <Folder Include="Assets\ScenesGame\slicing\1" />
      <Folder Include="Assets\TextMesh Pro" />
      <Folder Include="Assets\ErbGameArt\Glowing orbs pack" />
@@ -241,6 +244,7 @@
      <Folder Include="Assets\Code\Scripts\Ad&apos;s Script\Ads Controller(PKG)\Scripts" />
      <Folder Include="Assets\TextMesh Pro\Shaders" />
      <Folder Include="Assets\Code\Scripts\Generic Controller&apos;s" />
+     <Folder Include="Assets\Bike_Environment_10Levels\Mesh" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources\Sprite Assets" />
      <Folder Include="Assets\TextMesh Pro\Resources\Style Sheets" />
      <Folder Include="Assets\TextMesh Pro\Fonts" />
