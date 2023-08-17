@@ -166,6 +166,7 @@
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
      <Folder Include="Assets\Extensions\Bike Controller\Physics Material" />
      <Folder Include="Assets\Extensions\Bike Controller\Scripts" />
+     <Folder Include="Assets\ScenesGame\Scenes\Gameplay" />
      <Folder Include="Assets\Bikes_Environment" />
      <Folder Include="Assets\Bikes_Environment\Bikes" />
      <Folder Include="Assets\ScenesGame\slicing\2" />
@@ -288,6 +289,7 @@
      <Folder Include="Assets\Art\Bike Stunt Space Enviroment\Materials" />
      <Folder Include="Assets\TextMesh Pro\Documentation" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras" />
+     <Folder Include="Assets\ScenesGame\Scenes\NewPrefabs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <Folder Include="Assets\Code\Scripts\UI Sys\Mainmenu Assembly" />
      <Folder Include="Assets\Bikes_Environment\Environment_10_Leves\Prefab" />
@@ -295,6 +297,7 @@
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources\Color Gradient Presets" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
      <Folder Include="Assets\BIKE UI PNG\HOME PAGE" />
+     <Folder Include="Assets\BIKE UI PNG\Gameplay" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
      <Folder Include="Assets\Code\Scripts\Ad&apos;s Script\Scripts" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />

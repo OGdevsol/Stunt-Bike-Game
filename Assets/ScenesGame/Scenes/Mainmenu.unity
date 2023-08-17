@@ -5667,7 +5667,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: -0.011959503, y: -0.0000000632388}
   m_AnchorMax: {x: 3.955443, y: 1}
-  m_AnchoredPosition: {x: 3.8603516, y: 0}
+  m_AnchoredPosition: {x: 3.3371582, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &258202338
@@ -15313,7 +15313,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: -0.000014341644, y: 0.021582386}
   m_AnchorMax: {x: 1, y: 0.97841763}
-  m_AnchoredPosition: {x: 0.016418457, y: 0}
+  m_AnchoredPosition: {x: 0.014099121, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &807498208
@@ -16996,8 +16996,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 271929752}
   m_HandleRect: {fileID: 271929751}
   m_Direction: 0
-  m_Value: 0.0003547513
-  m_Size: 0.42297792
+  m_Value: 0.00035457735
+  m_Size: 0.42282432
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -17270,7 +17270,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 885383916}
   m_OnClick:
     m_PersistentCalls:
@@ -31542,8 +31542,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 755584436}
   m_HandleRect: {fileID: 755584435}
   m_Direction: 0
-  m_Value: 0.0034515096
-  m_Size: 0.2520541
+  m_Value: 0.0034515313
+  m_Size: 0.25205407
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -38204,21 +38204,21 @@ MonoBehaviour:
     price: 0
     Speed: 110
     Handling: 200
-    Grip: 100
+    Grip: 120
   - BgImage: {fileID: 1315027974}
     selectedImage: {fileID: 932676252}
     inventoryItemlockButtons: {fileID: 1624163147}
-    price: 0
+    price: 1
     Speed: 130
-    Handling: 250
-    Grip: 120
+    Handling: 220
+    Grip: 135
   - BgImage: {fileID: 1383989568}
     selectedImage: {fileID: 744048639}
     inventoryItemlockButtons: {fileID: 556556045}
-    price: 0
+    price: 2
     Speed: 150
-    Handling: 270
-    Grip: 140
+    Handling: 240
+    Grip: 150
   Items:
   - {fileID: 21300000, guid: 57f8190465dcb934c958ce02134c942b, type: 3}
   - {fileID: -159107748, guid: 4ffe813a46e9e9b4b968ce98e7d9c708, type: 3}
@@ -39034,7 +39034,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: -0.000483997, y: 0}
   m_AnchorMax: {x: 2.3582246, y: 0.97841763}
-  m_AnchoredPosition: {x: 6.0689697, y: 5}
+  m_AnchoredPosition: {x: 6.069092, y: 5}
   m_SizeDelta: {x: 12.137695, y: -10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2112056260
