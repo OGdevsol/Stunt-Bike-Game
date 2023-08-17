@@ -1300,6 +1300,37 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &196801291
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 196801292}
+  m_Layer: 0
+  m_Name: StartPosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &196801292
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196801291}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -4.3807077, y: 30.724, z: -59.61}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3718109111325119959}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &250591099
 GameObject:
   m_ObjectHideFlags: 0
@@ -14260,7 +14291,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Levels:
-  - {fileID: 0}
+  - {fileID: 8540201680483084953}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -19454,6 +19485,7 @@ Transform:
   - {fileID: 3718109112614381496}
   - {fileID: 3718109112276377123}
   - {fileID: 3718109111546079213}
+  - {fileID: 196801292}
   m_Father: {fileID: 3718109112363784767}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -82641,13 +82673,29 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 144224586809158238}
+  - component: {fileID: 8540201680483084954}
   m_Layer: 0
   m_Name: City_Level_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
+--- !u!114 &8540201680483084954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8540201680483084953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a0c88159f38dc64fa744eb86c9b3990, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerPos: {fileID: 196801292}
+  Finishpoint: {fileID: 3718109113144230081}
+  SpaceShip: {fileID: 0}
 --- !u!64 &8568400916031409732
 MeshCollider:
   m_ObjectHideFlags: 0
