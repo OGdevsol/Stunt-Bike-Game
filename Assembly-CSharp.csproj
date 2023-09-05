@@ -271,6 +271,7 @@
      <Folder Include="Assets\Prefab" />
      <Folder Include="Assets\Art\Player\Textures" />
      <Folder Include="Assets\BIKE UI PNG\PAUSED" />
+     <Folder Include="Assets\Sounds" />
      <Folder Include="Assets\Art\Bikes\Material" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\Shader\PolygonArsenal_PolyLitSurface.shader" />

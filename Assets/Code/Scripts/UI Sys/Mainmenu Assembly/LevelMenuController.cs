@@ -28,6 +28,8 @@ public class LevelMenuController : MonoBehaviour
 
     public Button[] levelButtons;
     public GameObject[] lockButtons;
+    public Sprite lockBorder;
+    public Sprite unLockBorder;
     public GameObject[] TextImages;
     public Scrollbar _levelSlider;
     
@@ -95,12 +97,15 @@ public class LevelMenuController : MonoBehaviour
             {
                 levelButtons[i].interactable = true;
                 lockButtons[i].SetActive(false);
+                levelButtons[i].GetComponent<Image>().sprite = unLockBorder;
+
                TextImages[i].SetActive(true);
                 lastSelectedLevel = i;
             }
             else
             {
                 levelButtons[i].interactable = false;
+                levelButtons[i].GetComponent<Image>().sprite = lockBorder;
                 lockButtons[i].SetActive(true);
                 TextImages[i].SetActive(false);
 
@@ -113,7 +118,7 @@ public class LevelMenuController : MonoBehaviour
         ApplicationController.SelectedLevel = ApplicationController.LastSelectedLevel;
       
         levelButtons[ApplicationController.LastSelectedLevel].GetComponent<Selectable>().Select();
-        setSlider();
+        //setSlider();
     }
 
     public void UnlockAllLevel()

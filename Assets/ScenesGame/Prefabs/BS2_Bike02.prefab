@@ -320,13 +320,14 @@ MonoBehaviour:
   inAir: 0
   Isdead: 0
   speed: 300
-  flipValueGrounded: 320
-  flipValue: 120
+  flipValueGrounded: 160
+  flipValue: 60
   characterAnimator: {fileID: 1469409105205783936}
   _engine: {fileID: 1469409104193319835}
   currentExhaust: {fileID: 0}
   dirt: {fileID: 0}
   RespawnplayerPos: {fileID: 0}
+  NitroEffect: {fileID: 0}
 --- !u!82 &1469409104193319835
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2436,7 +2437,6 @@ MonoBehaviour:
   _lHandEffector: {fileID: 1469409104569322060}
   _rlegEffector: {fileID: 1469409104691766342}
   _llegEffector: {fileID: 1469409105610522310}
-  playerlives: 3
   isDead: 0
 --- !u!1 &1469409105140493549
 GameObject:

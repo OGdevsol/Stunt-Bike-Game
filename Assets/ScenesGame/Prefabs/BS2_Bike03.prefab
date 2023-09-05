@@ -1031,8 +1031,8 @@ MonoBehaviour:
   inAir: 0
   Isdead: 0
   speed: 400
-  flipValueGrounded: 340
-  flipValue: 140
+  flipValueGrounded: 170
+  flipValue: 70
   characterAnimator: {fileID: 1414701146304568741}
   _engine: {fileID: 5428569461626754222}
   currentExhaust: {fileID: 0}

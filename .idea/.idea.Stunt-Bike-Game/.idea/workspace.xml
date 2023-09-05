@@ -4,9 +4,17 @@
     <list default="true" id="f3d38fcc-1e64-400c-8f23-d20778533e74" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Stunt-Bike-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stunt-Bike-Game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Level4/04.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level4/04.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/UI Sys/Mainmenu Assembly/LevelMenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/UI Sys/Mainmenu Assembly/LevelMenuController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mesh/torch_0.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mesh/torch_0.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScenesGame/Prefabs/BS2_Bike02.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScenesGame/Prefabs/BS2_Bike02.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScenesGame/Prefabs/BS2_Bike03.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScenesGame/Prefabs/BS2_Bike03.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ScenesGame/Scenes/Gameplay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScenesGame/Scenes/Gameplay.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScenesGame/Scenes/Lightning Data/Gameplay.lighting" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScenesGame/Scenes/Lightning Data/Gameplay.lighting" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScenesGame/Scenes/Mainmenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScenesGame/Scenes/Mainmenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScenesGame/Scenes/Splash.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScenesGame/Scenes/Splash.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
@@ -17,6 +25,21 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Core/Reflection/TypeName.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.testtools.codecoverage@1.2.3/Samples~/Tutorial/Asteroids/Scripts/Managers/GameManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Core/Unity/SceneSingleton.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.6.5/DocCodeExamples/TimelineEditorExamples.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.testtools.codecoverage@1.2.3/Samples~/Tutorial/Asteroids/Tests/GameManagerTests.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Core/Utilities/ReferenceCollector.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Runtime/Canvas/NoActiveCameraInSceneDoesNotCrashEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEngine.TestRunner/TestRunner/PlaymodeTestsController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Core/Variables/Variables.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Shared/EmptyGraphWindow.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Runtime/Canvas/RectTransformValidAfterEnable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.performance.profile-analyzer@1.2.2/Editor/ProfileTable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.6.5/Editor/Window/TimelineWindow.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2T3pAr5etgBkylY6qLY6X12t89U" />
   <component name="ProjectViewState">
@@ -69,6 +92,10 @@
       <workItem from="1691404195126" duration="816000" />
       <workItem from="1691430077773" duration="1337000" />
       <workItem from="1691501893740" duration="631000" />
+      <workItem from="1692608693573" duration="1497000" />
+      <workItem from="1692946314629" duration="4990000" />
+      <workItem from="1693214515052" duration="823000" />
+      <workItem from="1693305395266" duration="549000" />
     </task>
     <servers />
   </component>
