@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: Ad_Ids
   m_EditorClassIdentifier: 
   chooseAdsNetwork: 0
-  admobAppId: ca-app-pub-1897637333634910/6632080978
-  admobAppOpenId: ca-app-pub-1897637333634910/3573548692
+  admobAppId: ca-app-pub-7017543837989726~5427582650
+  admobAppOpenId: ca-app-pub-7017543837989726/7362608710
   AdmobOpenAppAD: 1
-  admobBannerId: ca-app-pub-1897637333634910/6248937598
+  admobBannerId: ca-app-pub-7017543837989726/5686602956
   admobLargeBannerId: 
-  interstitialMainId: ca-app-pub-1897637333634910/6635660454
-  interstitialGameId: ca-app-pub-1897637333634910/6635660454
-  interstitialRewardedId: ca-app-pub-1897637333634910/7744690002
+  interstitialMainId: ca-app-pub-7017543837989726/7862174309
+  interstitialGameId: ca-app-pub-7017543837989726/7862174309
+  interstitialRewardedId: ca-app-pub-7017543837989726/6549092631
   admobRewardedVideoId: 
   admobAppOpenId_Medium: 
   admobAppOpenId_High: 
