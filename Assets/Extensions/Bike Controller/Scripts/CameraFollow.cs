@@ -1,7 +1,11 @@
-﻿using UnityEngine;
+﻿using System;
+using Unity.VisualScripting;
+using UnityEngine;
+using Object = UnityEngine.Object;
 
 public class CameraFollow : MonoBehaviour
 {
+    public static CameraFollow instance;
 
     public static float maxcamfieldOfView = 50f;
     private Transform target;
@@ -14,6 +18,11 @@ public class CameraFollow : MonoBehaviour
     private float LerpHeight;
     private float CurrentHeight;
     private Camera mainCamera;
+
+    private void Awake()
+    {
+        instance = this;
+    }
 
 
     private void Start()
@@ -28,6 +37,7 @@ public class CameraFollow : MonoBehaviour
 
     private void FixedUpdate()
     {
+       
         if (!target)
         {
             if (GameObject.FindWithTag("Body"))
@@ -56,4 +66,5 @@ public class CameraFollow : MonoBehaviour
         }
     
     }
+    
 }

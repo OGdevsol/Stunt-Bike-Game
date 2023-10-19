@@ -41,9 +41,13 @@ public class LevelController : MonoBehaviour
     
     {
         inventoryManager = InventoryManager.instance;
-        inventoryManager.currentPlayer.transform.SetParent(PlayerPos.parent);
-        inventoryManager.currentPlayer.transform.localPosition =  PlayerPos.localPosition;
-        GameController.instance.currentLevel = this;  
+        if (inventoryManager)
+        {
+            inventoryManager.currentPlayer.transform.SetParent(PlayerPos.parent);
+            inventoryManager.currentPlayer.transform.localPosition =  PlayerPos.localPosition;
+            GameController.instance.currentLevel = this;  
+        }
+       
     }
 
 

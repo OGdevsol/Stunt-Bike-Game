@@ -361,6 +361,9 @@
      <Reference Include="Unity.VisualScripting.IonicZip">
      <HintPath>G:\Unity Projects\BikeGameNew\Stunt-Bike-Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
      </Reference>
+     <Reference Include="JMOAssets_CartoonFXFreeWelcome">
+     <HintPath>G:\Unity Projects\BikeGameNew\Stunt-Bike-Game\Assets\JMO Assets\Editor\JMOAssets_CartoonFXFreeWelcome.dll</HintPath>
+     </Reference>
      <Reference Include="DOTweenPro">
      <HintPath>G:\Unity Projects\BikeGameNew\Stunt-Bike-Game\Assets\Plugins\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
      </Reference>

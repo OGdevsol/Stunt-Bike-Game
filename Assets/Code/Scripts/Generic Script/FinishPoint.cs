@@ -83,16 +83,25 @@ public class FinishPoint : MonoBehaviour
             }
             else
             {
-                win();
+              
+                StartCoroutine("win");
                 controller.BrakeCheck(true);
                 shouldSlowDown = false;
             }
         }
     }
 
-
-    public void win()
+    private IEnumerator Win()
     {
+        yield return new WaitForSecondsRealtime(3f);
+        win();
+    }
+
+    private Vector3 offset = new Vector3(0, -250, 0);
+    public IEnumerator win()
+    {
+        Instantiate(GameController.instance.winParticle,GameController.instance. _playerTransform.position,GameController.instance.gameObject.transform.rotation);
+        yield return new WaitForSecondsRealtime(4f);
         GameController.instance.displayGameWin();
     }
     

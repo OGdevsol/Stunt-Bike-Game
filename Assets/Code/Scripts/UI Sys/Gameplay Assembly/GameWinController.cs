@@ -8,6 +8,7 @@ public class GameWinController : MonoBehaviour
     #region Instance
  
     private static GameWinController _instance;
+    [HideInInspector] public bool LevelComplete;
 
     public static GameWinController instance
     {
@@ -34,6 +35,7 @@ public class GameWinController : MonoBehaviour
   
     public void display()
     {
+        LevelComplete = true;
         containerGO.enabled = true;
         Money.text = 1000.ToString();
         float minutes = Mathf.FloorToInt(InGameController.instance.endTime / 60);

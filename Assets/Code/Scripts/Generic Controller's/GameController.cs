@@ -48,6 +48,9 @@ public class GameController : MonoBehaviour
 
     public static GameStatus _gameStatus = GameStatus.INGAME;
 
+    public GameObject winParticle;
+    public GameObject checkPointParticle;
+
     public static GameStatus gameStatus
     {
         get { return _gameStatus; }
@@ -73,7 +76,9 @@ public class GameController : MonoBehaviour
         if (Application.internetReachability != NetworkReachability.NotReachable && AdsController.Instance != null)
         {
             AdsController.Instance._showsmallBanner();
-        }    
+        }
+
+        _gameWinController.LevelComplete = false;
 
     }
 
@@ -112,6 +117,8 @@ public class GameController : MonoBehaviour
         {
             AdsController.Instance._showInterstitialGame();
         }
+
+      
     }
 
     public void GameStart()

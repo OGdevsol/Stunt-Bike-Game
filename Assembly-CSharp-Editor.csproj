@@ -41,14 +41,17 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\JMO Assets\Cartoon FX Easy Editor\Editor\CFXEasyEditor.cs" />
      <Compile Include="Assets\Editor\SetAnchors.cs" />
      <Compile Include="Assets\Extensions\Bike Controller\Scripts\Editor\BikeSetup.cs" />
      <Compile Include="Assets\Editor\URPPostProcessStripper.cs" />
      <None Include="Assets\ExternalDependencyManager\Editor\external-dependency-manager_version-1.2.172_manifest.txt" />
      <Folder Include="Assets\ExternalDependencyManager\Editor\1.2.172" />
+     <Folder Include="Assets\JMO Assets\Editor" />
      <Folder Include="Assets\Editor" />
      <Folder Include="Assets\ExternalDependencyManager\Editor" />
      <Folder Include="Assets\Extensions\Bike Controller\Scripts\Editor" />
+     <Folder Include="Assets\JMO Assets\Cartoon FX Easy Editor\Editor" />
      <Reference Include="UnityEngine">
      <HintPath>G:\Unity\Editors\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
@@ -351,6 +354,9 @@
      </Reference>
      <Reference Include="Unity.VisualScripting.IonicZip">
      <HintPath>G:\Unity Projects\BikeGameNew\Stunt-Bike-Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+     </Reference>
+     <Reference Include="JMOAssets_CartoonFXFreeWelcome">
+     <HintPath>G:\Unity Projects\BikeGameNew\Stunt-Bike-Game\Assets\JMO Assets\Editor\JMOAssets_CartoonFXFreeWelcome.dll</HintPath>
      </Reference>
      <Reference Include="DOTweenPro">
      <HintPath>G:\Unity Projects\BikeGameNew\Stunt-Bike-Game\Assets\Plugins\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>

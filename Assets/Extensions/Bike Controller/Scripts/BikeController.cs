@@ -146,6 +146,7 @@ public class BikeController : MonoBehaviour
     
     public void IntializeStats()
     {
+       
         speed = calculateUpgradeValue(DataController.getPref(String.Concat( ScriptLocalization.BikeSpeed,CurrentInventoryItem)) , DataController.getUpgradedLevel( CurrentInventoryItem));
         flipValueGrounded = calculateUpgradeValue(DataController.getPref(String.Concat( ScriptLocalization.BikeHandling,CurrentInventoryItem)) , DataController.getUpgradedLevel( CurrentInventoryItem));
         flipValue = calculateUpgradeValue(DataController.getPref(String.Concat( ScriptLocalization.BikeGrip,CurrentInventoryItem)), DataController.getUpgradedLevel( CurrentInventoryItem));

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &17353152146238523
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 17353152146238521}
+  - component: {fileID: 17353152146238522}
+  m_Layer: 0
+  m_Name: FireworkSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &17353152146238521
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17353152146238523}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &17353152146238522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17353152146238523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33a285c69551b9844b01b7f588a1d6f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fireworkPrefabs:
+  - {fileID: 5821612293820402016, guid: 7ee18f92cf3523f43bb4863517ef48d1, type: 3}
+  - {fileID: 9012721465422563009, guid: 07cd8a2247f6a254fb760c0a87ca5855, type: 3}
+  - {fileID: 598116133606617979, guid: 0aff0f42088019f4cb6081354fe07f62, type: 3}
+  - {fileID: 4036180413658404954, guid: db131f55b11d98e4b83b706599d8b7ca, type: 3}
+  audioClips:
+  - {fileID: 8300000, guid: 08a867194a5c63941a1155c630dbbeaf, type: 3}
+  - {fileID: 8300000, guid: 803841059772b84419951061784d047f, type: 3}
+  - {fileID: 8300000, guid: cfd90b495c4f39341963589379cb1762, type: 3}
+  - {fileID: 8300000, guid: 38ca4503a2c63f04992563c31676d4f4, type: 3}
+  - {fileID: 8300000, guid: c3a0cb1aea6bb4e4fa4665f1528c9c1c, type: 3}
+  spawnRadius: 20
+  spawnRate: 2

@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 public class SplashLoadingController : MonoBehaviour
@@ -46,12 +47,28 @@ public class SplashLoadingController : MonoBehaviour
             Console.Error.WriteLine("Error: " + ex.Message);
             // handle the error
         }
+        _sceneMngmtController = SceneMngmtController.instance;
+
+        
+        if (!PlayerPrefs.HasKey("GameLaunch"))
+        {
+          PlayerPrefs.SetInt("GameLaunch",1);
+          StartCoroutine(nameof(LoadTutorialTimer));
+
+        }
+        
+    }
+
+    public IEnumerator LoadTutorialTimer()
+    {
+        yield return new WaitForSecondsRealtime(TimeToLoad);
+        LoadTutorial();
     }
 
 
     private void Start()
     {
-        _sceneMngmtController = SceneMngmtController.instance;
+       
         Invoke(nameof(LoadScene), TimeToLoad);
         // if (Application.internetReachability != NetworkReachability.NotReachable && AdsController.Instance != null)
         // {
@@ -63,6 +80,15 @@ public class SplashLoadingController : MonoBehaviour
     public void LoadScene()
     {
         _sceneMngmtController.LoadScene(Scenes.Mainmenu);
+        // if (Application.internetReachability != NetworkReachability.NotReachable && AdsController.Instance != null)
+        // {
+        //     AdsController.Instance._showInterstitialGame();
+        // }
+    }
+    public void LoadTutorial()
+    {
+        Debug.Log("Loading Tutorial");
+        _sceneMngmtController.LoadScene(Scenes.Tutorial);
         // if (Application.internetReachability != NetworkReachability.NotReachable && AdsController.Instance != null)
         // {
         //     AdsController.Instance._showInterstitialGame();
